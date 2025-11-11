@@ -14,7 +14,13 @@ function displayResult(value) {
 
 // Addition function - TO BE IMPLEMENTED BY STUDENT 2
 function add() {
-    alert('Addition not implemented yet!');
+    const { num1, num2 } = getInputs();
+    if (isNaN(num1) || isNaN(num2)) {
+        displayResult('Please enter valid numbers');
+        return;
+    }
+    const result = num1 + num2;
+    displayResult(result);;
 }
 
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
