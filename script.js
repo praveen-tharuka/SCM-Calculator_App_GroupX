@@ -23,6 +23,7 @@ function subtract() {
 }
 
 // Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
+// Implement multiplication operation
 function multiply() {
     const { num1, num2 } = getInputs();
     if (isNaN(num1) || isNaN(num2)) {
