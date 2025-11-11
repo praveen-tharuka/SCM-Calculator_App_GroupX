@@ -24,7 +24,7 @@ function add() {
 }
 
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
-//Implement subtraction operation
+
 function subtract() {
     const { num1, num2 } = getInputs();
     if (isNaN(num1) || isNaN(num2)) {
