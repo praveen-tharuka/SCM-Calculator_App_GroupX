@@ -26,9 +26,6 @@ function add() {
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
 //Implement subtraction operation
 function subtract() {
-    alert('Subtraction not implemented yet!');
-    javascript
-function subtract() {
     const { num1, num2 } = getInputs();
     if (isNaN(num1) || isNaN(num2)) {
         displayResult('Please enter valid numbers');
@@ -36,7 +33,6 @@ function subtract() {
     }
     const result = num1 - num2;  
     displayResult(result);
-}
 }
 
 // Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
