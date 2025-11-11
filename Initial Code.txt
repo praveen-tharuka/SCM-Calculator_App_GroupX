@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Team Calculator</h1>
+        <input type="number" id="num1" placeholder="First number">
+        <input type="number" id="num2" placeholder="Second number">
+        
+        <div class="buttons">
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">×</button>
+            <button onclick="divide()">÷</button>
+        </div>
+        
+        <div class="result">
+            <h2>Result: <span id="result">0</span></h2>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+Create `style.css`:
+```css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.calculator {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #764ba2;
+    transform: scale(1.1);
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.result h2 {
+    color: #333;
+    margin: 0;
+}
+
+#result {
+    color: #667eea;
+    font-weight: bold;
+}
+```
+
+Create `script.js`:
+```javascript
+// Calculator functions will be added by team members
+
+// Helper function to get input values
+function getInputs() {
+    const num1 = parseFloat(document.getElementById('num1').value);
+    const num2 = parseFloat(document.getElementById('num2').value);
+    return { num1, num2 };
+}
+
+// Helper function to display result
+function displayResult(value) {
+    document.getElementById('result').textContent = value;
+}
+
+// Addition function - TO BE IMPLEMENTED BY STUDENT 2
+function add() {
+    alert('Addition not implemented yet!');
+}
+
+// Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
+function subtract() {
+    alert('Subtraction not implemented yet!');
+}
+
+// Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
+function multiply() {
+    alert('Multiplication not implemented yet!');
+}
+
+// Division function - TO BE IMPLEMENTED BY STUDENT 5
+function divide() {
+    alert('Division not implemented yet!');
+}
