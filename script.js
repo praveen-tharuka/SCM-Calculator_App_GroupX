@@ -18,6 +18,7 @@ function add() {
 }
 
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
+//Implement subtraction operation
 function subtract() {
     alert('Subtraction not implemented yet!');
     javascript
