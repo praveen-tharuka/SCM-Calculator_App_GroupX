@@ -24,6 +24,7 @@ function add() {
 }
 
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
+//Implement subtraction operation
 function subtract() {
     alert('Subtraction not implemented yet!');
     javascript
@@ -33,7 +34,7 @@ function subtract() {
         displayResult('Please enter valid numbers');
         return;
     }
-    const result = num1 - num2;
+    const result = num1 - num2;  
     displayResult(result);
 }
 
