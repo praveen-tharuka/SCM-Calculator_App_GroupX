@@ -36,7 +36,6 @@ function subtract() {
     const result = num1 - num2;
     displayResult(result);
 }
-
 }
 
 // Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
@@ -65,4 +64,5 @@ function divide() {
     }
     const result = num1 / num2;
     displayResult(result);
+}
 }
