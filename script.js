@@ -27,7 +27,7 @@ function subtract() {
         displayResult('Please enter valid numbers');
         return;
     }
-    const result = num1 - num2;
+    const result = num1 - num2;  
     displayResult(result);
 }
 
